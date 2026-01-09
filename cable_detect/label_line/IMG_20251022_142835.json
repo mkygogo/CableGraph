@@ -1,0 +1,110 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l",
+      "points": [
+        [
+          244.75247524752473,
+          47.22772277227722
+        ],
+        [
+          412.0792079207921,
+          59.6039603960396
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          236.83168316831683,
+          160.59405940594058
+        ],
+        [
+          394.25742574257424,
+          171.48514851485146
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          230.89108910891088,
+          229.4059405940594
+        ],
+        [
+          388.3168316831683,
+          238.3168316831683
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          224.45544554455444,
+          388.31683168316835
+        ],
+        [
+          365.5445544554455,
+          383.36633663366337
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          225.44554455445547,
+          354.6534653465347
+        ],
+        [
+          354.65346534653463,
+          350.6930693069307
+        ],
+        [
+          518.019801980198,
+          378.41584158415844
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "IMG_20251022_142835.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "text": ""
+}

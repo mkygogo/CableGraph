@@ -1,0 +1,68 @@
+# --- Python 相关 ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- 虚拟环境 ---
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda/
+
+# --- 深度学习模型与数据 (核心) ---
+# 忽略权重文件
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+*.pb
+*.h5
+
+# 忽略数据集目录 (根据你的实际路径调整)
+datasets/
+data/
+YOLODataset/
+*dataset*/
+*.zip
+*.tar.gz
+*.rar
+
+# 忽略训练日志和结果 (如 YOLO 的 runs 目录)
+runs/
+wandb/
+checkpoints/
+logs/
+*.log
+
+# --- IDE 与系统文件 ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- 配置文件 (如包含密码或 API Key) ---
+.env
+.flaskenv

@@ -1,0 +1,38 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "direction": 0.019999999999981137,
+      "label": "uxn",
+      "points": [
+        [
+          246.24057904774108,
+          460.24786477069216
+        ],
+        [
+          350.97610618604335,
+          462.34285465288974
+        ],
+        [
+          350.28133570708644,
+          497.07674667405826
+        ],
+        [
+          245.54580856878394,
+          494.98175679185965
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rotation",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "..\\images\\IMG_20251023_100154.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640
+}

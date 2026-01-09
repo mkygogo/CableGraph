@@ -1,0 +1,213 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l",
+      "points": [
+        [
+          89.06354515050168,
+          208.62876254180603
+        ],
+        [
+          179.69899665551839,
+          209.63210702341138
+        ],
+        [
+          294.74916387959865,
+          213.31103678929767
+        ],
+        [
+          413.81270903010034,
+          214.314381270903
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          89.06354515050168,
+          255.11705685618728
+        ],
+        [
+          203.77926421404683,
+          261.80602006688963
+        ],
+        [
+          301.438127090301,
+          269.83277591973246
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          85.05016722408027,
+          110.63545150501673
+        ],
+        [
+          186.38795986622074,
+          113.31103678929767
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          89.06354515050168,
+          277.8595317725752
+        ],
+        [
+          189.06354515050168,
+          283.2107023411371
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          93.0769230769231,
+          327.02341137123744
+        ],
+        [
+          199.76588628762542,
+          327.02341137123744
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          93.74581939799333,
+          349.09698996655516
+        ],
+        [
+          207.79264214046822,
+          351.10367892976586
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          94.72375690607737,
+          370.96685082872926
+        ],
+        [
+          190.85635359116023,
+          370.96685082872926
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          95.55248618784533,
+          391.96132596685084
+        ],
+        [
+          196.38121546961327,
+          391.6850828729282
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          95.27624309392267,
+          412.95580110497235
+        ],
+        [
+          195.82872928176798,
+          413.50828729281767
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          98.03867403314919,
+          493.89502762430936
+        ],
+        [
+          194.4475138121547,
+          492.51381215469615
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "IMG_20251106_103850.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "text": ""
+}

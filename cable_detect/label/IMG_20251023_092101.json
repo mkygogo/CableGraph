@@ -1,0 +1,38 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "direction": 5.420000000000027,
+      "label": "krbu",
+      "points": [
+        [
+          308.7200949485954,
+          345.61751573380184
+        ],
+        [
+          423.2085620623247,
+          211.77286883647966
+        ],
+        [
+          464.6483025379848,
+          247.21972812169776
+        ],
+        [
+          350.1598354242555,
+          381.06437501901996
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "rotation",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "..\\images\\IMG_20251023_092101.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640
+}

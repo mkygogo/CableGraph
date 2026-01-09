@@ -1,0 +1,110 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l",
+      "points": [
+        [
+          186.83168316831683,
+          158.1188118811881
+        ],
+        [
+          273.96039603960395,
+          164.55445544554453
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          187.32673267326732,
+          222.97029702970295
+        ],
+        [
+          274.45544554455444,
+          228.9108910891089
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          188.3168316831683,
+          264.5544554455446
+        ],
+        [
+          274.45544554455444,
+          264.5544554455446
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          189.30693069306926,
+          344.7524752475248
+        ],
+        [
+          281.3861386138613,
+          339.3069306930693
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          190.2970297029703,
+          366.53465346534654
+        ],
+        [
+          271.48514851485146,
+          357.1287128712871
+        ],
+        [
+          372.970297029703,
+          361.5841584158416
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "IMG_20251106_093123.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "text": ""
+}

@@ -1,0 +1,118 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l",
+      "points": [
+        [
+          38.31683168316829,
+          180.3960396039604
+        ],
+        [
+          220.99009900990097,
+          191.28712871287127
+        ],
+        [
+          419.99999999999994,
+          200.1980198019802
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          29.900990099009903,
+          300.1980198019802
+        ],
+        [
+          202.67326732673263,
+          319.009900990099
+        ],
+        [
+          392.27722772277224,
+          359.6039603960396
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          20.20325203252034,
+          486.5853658536585
+        ],
+        [
+          190.12195121951223,
+          507.7235772357724
+        ],
+        [
+          346.6260162601626,
+          573.170731707317
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          34.430894308943095,
+          221.13821138211384
+        ],
+        [
+          197.84552845528455,
+          233.739837398374
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          25.08130081300814,
+          375.2032520325203
+        ],
+        [
+          192.56097560975613,
+          391.0569105691057
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "IMG_20251106_102818.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "text": ""
+}

@@ -1,0 +1,114 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l",
+      "points": [
+        [
+          155.14851485148512,
+          7.623762376237613
+        ],
+        [
+          286.33663366336634,
+          19.009900990099
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          152.1782178217822,
+          96.23762376237622
+        ],
+        [
+          282.37623762376234,
+          109.60396039603958
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          149.70297029702965,
+          155.14851485148515
+        ],
+        [
+          278.4158415841584,
+          164.05940594059405
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          151.68316831683165,
+          266.53465346534654
+        ],
+        [
+          285.34653465346537,
+          268.51485148514854
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          153.16831683168317,
+          297.2277227722772
+        ],
+        [
+          270.990099009901,
+          292.7722772277228
+        ],
+        [
+          408.1188118811881,
+          307.6237623762376
+        ],
+        [
+          522.9702970297029,
+          319.5049504950495
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "IMG_20251022_142300.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "text": ""
+}

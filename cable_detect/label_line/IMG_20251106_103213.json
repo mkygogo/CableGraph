@@ -1,0 +1,103 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l",
+      "points": [
+        [
+          64.31438127090303,
+          205.95317725752508
+        ],
+        [
+          152.6086956521739,
+          215.31772575250835
+        ],
+        [
+          258.628762541806,
+          223.01003344481606
+        ],
+        [
+          352.943143812709,
+          229.36454849498327
+        ],
+        [
+          477.0234113712374,
+          237.3913043478261
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          62.642140468227446,
+          268.16053511705684
+        ],
+        [
+          160.30100334448161,
+          281.53846153846155
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          71.00334448160535,
+          592.9096989966556
+        ],
+        [
+          158.2943143812709,
+          617.9933110367894
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          60.30100334448162,
+          480.53511705685617
+        ],
+        [
+          156.2876254180602,
+          499.93311036789294
+        ],
+        [
+          246.25418060200667,
+          515.6521739130435
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "IMG_20251106_103213.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "text": ""
+}

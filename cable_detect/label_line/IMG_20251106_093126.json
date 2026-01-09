@@ -1,0 +1,110 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l",
+      "points": [
+        [
+          170.99009900990097,
+          107.62376237623761
+        ],
+        [
+          288.3168316831683,
+          110.59405940594058
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          175.44554455445547,
+          188.3168316831683
+        ],
+        [
+          287.3267326732673,
+          192.27722772277227
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          179.40594059405936,
+          238.3168316831683
+        ],
+        [
+          291.7821782178218,
+          236.3366336633663
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          185.84158415841586,
+          332.8712871287129
+        ],
+        [
+          303.1683168316831,
+          326.43564356435644
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          188.3168316831683,
+          359.1089108910891
+        ],
+        [
+          292.27722772277224,
+          347.72277227722776
+        ],
+        [
+          414.55445544554453,
+          353.66336633663366
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "IMG_20251106_093126.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "text": ""
+}

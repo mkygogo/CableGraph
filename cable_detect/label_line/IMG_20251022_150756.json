@@ -1,0 +1,224 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l",
+      "points": [
+        [
+          113.46504559270515,
+          393.5562310030395
+        ],
+        [
+          265.44072948328267,
+          390.51671732522794
+        ],
+        [
+          395.22796352583583,
+          409.36170212765956
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          82.44635193133047,
+          73.39055793991416
+        ],
+        [
+          238.24034334763945,
+          70.3862660944206
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          95.75107296137338,
+          205.5793991416309
+        ],
+        [
+          233.94849785407723,
+          201.7167381974249
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          99.18454935622319,
+          236.48068669527896
+        ],
+        [
+          250.68669527896998,
+          236.05150214592274
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          106.05150214592277,
+          298.7124463519313
+        ],
+        [
+          255.4077253218884,
+          296.9957081545064
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          111.42441860465115,
+          357.5
+        ],
+        [
+          241.36627906976742,
+          358.66279069767444
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          116.07558139534883,
+          421.45348837209303
+        ],
+        [
+          256.19186046511624,
+          417.093023255814
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          118.98255813953487,
+          449.6511627906977
+        ],
+        [
+          267.52906976744185,
+          449.9418604651163
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          121.01744186046511,
+          476.9767441860465
+        ],
+        [
+          248.34302325581393,
+          477.2674418604651
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          122.76162790697674,
+          504.3023255813954
+        ],
+        [
+          256.4825581395349,
+          504.593023255814
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          122.76162790697674,
+          531.3372093023256
+        ],
+        [
+          246.0174418604651,
+          527.8488372093024
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "IMG_20251022_150756.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "text": ""
+}

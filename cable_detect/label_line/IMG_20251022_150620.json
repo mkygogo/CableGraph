@@ -1,0 +1,209 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l",
+      "points": [
+        [
+          164.55445544554453,
+          39.3069306930693
+        ],
+        [
+          331.3861386138613,
+          29.405940594059395
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          178.4158415841584,
+          215.04950495049502
+        ],
+        [
+          342.2772277227723,
+          213.56435643564356
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          185.34653465346537,
+          282.3762376237624
+        ],
+        [
+          344.7524752475248,
+          281.3861386138614
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          192.77227722772278,
+          417.029702970297
+        ],
+        [
+          343.7623762376238,
+          418.01980198019805
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          193.76237623762376,
+          447.7227722772277
+        ],
+        [
+          357.62376237623766,
+          454.15841584158414
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          196.2376237623762,
+          478.91089108910893
+        ],
+        [
+          332.8712871287128,
+          484.35643564356434
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          195.71428571428572,
+          509.2063492063492
+        ],
+        [
+          342.6984126984127,
+          515.8730158730159
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          196.03174603174605,
+          538.7301587301588
+        ],
+        [
+          326.5079365079365,
+          540.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          188.41269841269843,
+          346.031746031746
+        ],
+        [
+          328.73015873015873,
+          351.11111111111114
+        ],
+        [
+          485.87301587301585,
+          363.1746031746032
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          192.53968253968256,
+          385.7142857142857
+        ],
+        [
+          354.44444444444446,
+          386.031746031746
+        ],
+        [
+          505.87301587301585,
+          408.8888888888889
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "IMG_20251022_150620.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "text": ""
+}

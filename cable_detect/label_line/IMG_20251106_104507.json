@@ -1,0 +1,122 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l",
+      "points": [
+        [
+          85.49815498154985,
+          209.9630996309963
+        ],
+        [
+          200.62730627306274,
+          211.4391143911439
+        ],
+        [
+          302.47232472324725,
+          216.9741697416974
+        ],
+        [
+          441.2177121771218,
+          219.1881918819188
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          88.81918819188192,
+          259.77859778597787
+        ],
+        [
+          184.02214022140225,
+          259.77859778597787
+        ],
+        [
+          295.83025830258305,
+          271.95571955719555
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          90.66420664206645,
+          308.4870848708487
+        ],
+        [
+          188.08118081180817,
+          307.380073800738
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          102.10332103321034,
+          559.040590405904
+        ],
+        [
+          190.66420664206646,
+          555.3505535055351
+        ],
+        [
+          296.19926199261994,
+          600.7380073800738
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          105.05535055350556,
+          620.6642066420665
+        ],
+        [
+          202.10332103321036,
+          623.6162361623616
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "IMG_20251106_104507.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "text": ""
+}

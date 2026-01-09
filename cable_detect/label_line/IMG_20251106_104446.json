@@ -1,0 +1,103 @@
+{
+  "version": "2.3.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "l",
+      "points": [
+        [
+          163.31103678929767,
+          544.0802675585285
+        ],
+        [
+          248.9297658862876,
+          542.742474916388
+        ],
+        [
+          357.2909698996655,
+          592.2408026755853
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          163.9799331103679,
+          255.7859531772575
+        ],
+        [
+          256.6220735785953,
+          258.12709030100336
+        ],
+        [
+          373.67892976588627,
+          274.18060200668896
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          163.6454849498328,
+          206.2876254180602
+        ],
+        [
+          276.68896321070235,
+          211.9732441471572
+        ],
+        [
+          384.38127090301003,
+          220.0
+        ],
+        [
+          532.876254180602,
+          228.69565217391303
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "linestrip",
+      "flags": {},
+      "attributes": {}
+    },
+    {
+      "label": "l",
+      "points": [
+        [
+          164.64882943143814,
+          302.943143812709
+        ],
+        [
+          257.95986622073576,
+          303.61204013377926
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "line",
+      "flags": {},
+      "attributes": {}
+    }
+  ],
+  "imagePath": "IMG_20251106_104446.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 640,
+  "text": ""
+}
