@@ -136,13 +136,15 @@ def predict_links(image_path, label_json_path, model, vocab, device):
     output_path = os.path.join(".", output_filename) 
     
     # *** 关键修复：保存被绘制的副本 'image_to_draw' ***
-    output_path = ".\\files"+output_path
+    save_dir = os.path.join("files")
+    os.makedirs(save_dir, exist_ok=True)
+    output_path = os.path.join(save_dir, output_filename)
     image_to_draw.save(output_path)
     print(f"Output image saved to: {output_path}")
                 
     return connections, output_path
 
-MODEL_PATH = "weight/cable_line_best_model_1104.pth"
+MODEL_PATH = "weight/cable_line_best_model_0109.pth"
 VOCAB_PATH = "weight/vocab.json"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 print("Loading model and vocab...")
@@ -164,6 +166,8 @@ def line_detect(image_path, label_path):
         
     if saved_image_path:
         print(f"\nVisual output saved to: {saved_image_path}")
+
+    return predicted_connections, saved_image_path
 
 if __name__ == "__main__":
         # --- 指定要推理的图像 ---

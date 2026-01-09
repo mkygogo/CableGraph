@@ -6,7 +6,7 @@ import os
 import pathlib
 import json
 from ultralytics.engine.results import Results
-
+from cable_inference import line_detect
 
 def convert_to_gray(img_path):
     with Image.open(img_path) as img:
@@ -146,7 +146,7 @@ def convert_yolo_obb_to_labelme(yolo_result: Results,
     # 8. 返回文件路径
     return output_path
 
-yolo_model = YOLO('./weight/yolo_obb_best_1030.pt')
+yolo_model = YOLO('./weight/yolo_obb_best_0106.pt')
 def yolo_img_detect(img) :
     img = resize_img(img)
 
@@ -176,26 +176,38 @@ def yolo_img_detect(img) :
         # 访问 results[0] 会导致 IndexError
         print(f"错误: model.predict() 未返回任何结果。跳过 {img}。")
 
-from cable_inference import line_detect
+
+def cable_detect(img_path):
+    # 1. 执行 YOLO OBB 检测
+    # yolo_img_detect 返回 (obb_json_path, resized_image_path)
+    result = yolo_img_detect(img_path)
+    if not result:
+        return None
+    
+    obb_json_path, image_path = result
+
+    # 2. 路径处理（适配 cable_inference）
+    p = pathlib.Path(obb_json_path)
+    posix_path = p.as_posix()
+    usable_json_path = posix_path if posix_path.startswith(('./', '../', '/')) else f"./{posix_path}"
+
+    # 3. 执行连线推理
+    lines, final_image_path = line_detect(image_path, usable_json_path)
+
+    # 4. 读取 OBB JSON 内容以返回给客户端
+    with open(usable_json_path, 'r', encoding='utf-8') as f:
+        obb_data = json.load(f)
+
+    # 5. 组装最终结果
+    final_result = {
+        "obb_results": obb_data.get("shapes", []), # OBB 框及标签
+        "line_results": lines,                     # 连线关系及置信度
+        "image_path": final_image_path             # 最终绘制了连线的图片路径
+    }
+    
+    return final_result
 
 if __name__ == "__main__" :
-    obb_json_path, image_path = yolo_img_detect("./files/IMG_20251022_114142.jpg")
-    print(obb_json_path)
-    print(image_path)
-
-    windows_path_str = obb_json_path
-    p = pathlib.Path(windows_path_str)
-    #  使用 .as_posix() 方法将其转换为使用正斜杠 (/) 的字符串
-    posix_path = p.as_posix()
-    # 手动添加 "./" 前缀
-    if not posix_path.startswith(('./', '../', '/')):
-        usable_path = f"./{posix_path}"
-    else:
-        usable_path = posix_path
-
-    print(f"原始路径: {windows_path_str}")
-    print(f"可用路径: {usable_path}")
-
-    line_detect(image_path, usable_path)
+    cable_detect("./files/IMG_20251022_114142.jpg")
 
 

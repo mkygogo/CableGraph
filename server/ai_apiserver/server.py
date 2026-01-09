@@ -32,13 +32,25 @@ class Task:
 # 任务字典，用于存储任务状态
 tasks = {}
 
+# async def detect_img(task: Task, file_path: str):
+#     task.task_status = TaskStatus.WORKING
+#     # 模拟一个耗时的图片处理过程
+#     ret  = yolo_detect.yolo_img_detect(file_path)
+
+#     task.task_status = TaskStatus.FINISHED
+#     task.detection_ret = ret
 async def detect_img(task: Task, file_path: str):
     task.task_status = TaskStatus.WORKING
-    # 模拟一个耗时的图片处理过程
-    ret  = yolo_detect.yolo_img_detect(file_path)
+    try:
+        # 调用升级后的接口
+        ret = yolo_detect.cable_detect(file_path)
+        task.detection_ret = ret
+        task.task_status = TaskStatus.FINISHED
+    except Exception as e:
+        logger.error(f"Detection failed: {e}")
+        task.task_status = TaskStatus.FINISHED
+        task.detection_ret = {"error": str(e)}
 
-    task.task_status = TaskStatus.FINISHED
-    task.detection_ret = ret
 
 JSON_PATH = Path("D:/ai/cv/ocr/__temp__/results.json")
 @app.get("/VoltageCurrentValue")  
@@ -79,17 +91,28 @@ async def upload_file(file: UploadFile = File(...)):
 
 @app.get("/check_task/{task_id}")
 def check_task(task_id: str):
-    # 检查任务是否存在
     task = tasks.get(task_id)
     if task is None:
         raise HTTPException(status_code=404, detail="Task not found")
     
     response = {"task_status": task.task_status}
     if task.task_status == TaskStatus.FINISHED and task.detection_ret is not None:
-        detection_dicts = [detection.to_dict() for detection in task.detection_ret]
-        response["detection_ret"] = detection_dicts
+        # 因为 cable_detect 现在返回的是普通的 dict，不需要再调用 to_dict()
+        response["results"] = task.detection_ret
    
     return response
+# def check_task(task_id: str):
+#     # 检查任务是否存在
+#     task = tasks.get(task_id)
+#     if task is None:
+#         raise HTTPException(status_code=404, detail="Task not found")
+    
+#     response = {"task_status": task.task_status}
+#     if task.task_status == TaskStatus.FINISHED and task.detection_ret is not None:
+#         detection_dicts = [detection.to_dict() for detection in task.detection_ret]
+#         response["detection_ret"] = detection_dicts
+   
+#     return response
 
 if __name__ == "__main__":
     #uvicorn.run(host="0.0.0.0", port=8920, app=app, debug=True)
